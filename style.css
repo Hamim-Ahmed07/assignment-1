@@ -18,22 +18,91 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+}
+
+nav>button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: blueviolet;
+    font-weight: 600;
+    font-size: medium;
 }
 .banner-content{
     display: flex;
     margin-bottom: 30px;
+    background-color: rgb(227, 163, 235);
+    padding: 60px;
+    border-radius: 50px;
+    margin-top: 5px;
+    
 }
 .pillars-container{
     display: flex;
+   
+    
+}
+.main-title{
+    padding-top: 40px;
+}
+.pillar{
+    margin: 20px;
+    background-color: white;
     padding: 20px;
-    gap: 25px;
+    border-radius: 20px;
+    margin-left: 20px;
+    
+   
+}
+.pillar-btn{
+    width: 130px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(135, 73, 193);
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.pillar-btn:hover{
+    /* box-shadow: 0 0 5px rgb(154, 127, 180), 0 0 25px rgb(154, 127, 180), 0 0 50px rgb(154, 127, 180),0 0 200px rgb(154, 127, 180); */
+    color: #333;
+
 }
 .vision-container{
     display: flex;
 }
+.banner-btn{
+    width: 250px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(135, 73, 193);
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.banner-title{
+    color: rgb(167, 169, 171);
+}
+.banner-description{
+    margin: 20px;
+    margin-top: 30px;
+}
 
-
-.satellite-container{
+.button{
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: medium;
+}
+.satellite{
+    
     
 }
 .pic{
@@ -58,8 +127,13 @@ nav{
 .donate-container{
     display: flex;
     padding: 50px;
-    margin: 50px
+    margin: 50px;
+    margin-top: -50px;
 
+}
+.donate-title{
+    align-items: center;
+    margin-top: 50px;
 }
 .donate{
     padding: 15px;
@@ -75,7 +149,7 @@ nav{
 }
 .taka{
     width: 500px;
-    height: 50px;
+    height: 40px;
     color: rgb(113, 105, 105);
     background-color: white;
     text-align: center;
@@ -83,7 +157,6 @@ nav{
     margin-left:280px ;
     padding-top: 25px;
     margin-bottom: 20px;
-    padding-bottom: -10px;
     box-shadow: 5px 3px 8px 0px black;
     font-size: large;
     border-radius: 3px;
@@ -98,6 +171,14 @@ nav{
     width: 100px;
     height: 40px;
     align-items: center;
-    margin-left: 400px;
+    margin-left: 500px;
+    margin-top: 20px;
+    background-color:rgb(135, 73, 193);
+    border-radius: 4px;
 
+}
+.btn-last:hover{
+    /* background: rgb(201, 133, 210); */
+    box-shadow: 0 0 5px rgb(154, 127, 180), 0 0 25px rgb(154, 127, 180), 0 0 50px rgb(154, 127, 180),0 0 200px rgb(154, 127, 180);
+    color: #333; 
 }
