@@ -1,0 +1,103 @@
+
+.open-sans-normal{
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body{
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgb(236, 236, 236);
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-content{
+    display: flex;
+    margin-bottom: 30px;
+}
+.pillars-container{
+    display: flex;
+    padding: 20px;
+    gap: 25px;
+}
+.vision-container{
+    display: flex;
+}
+
+
+.satellite-container{
+    
+}
+.pic{
+    border-radius: 30px;
+}
+.satellite{
+    display: flex;
+    background-color: white;
+    padding: 25px;
+    margin: 30px;
+    border-radius: 30px;
+
+}
+
+.satellite-all{
+    margin-left: 50px;
+}
+.satellite-new{
+    padding: 10px;
+    border-radius: 40px;
+}
+.donate-container{
+    display: flex;
+    padding: 50px;
+    margin: 50px
+
+}
+.donate{
+    padding: 15px;
+    margin: 30px 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 2px 10px 0px black;
+}
+.donate:hover{
+    background: rgb(201, 133, 210);
+    box-shadow: 0 0 5px rgb(154, 127, 180), 0 0 25px rgb(154, 127, 180), 0 0 50px rgb(154, 127, 180),0 0 200px rgb(154, 127, 180);
+    color: #333;
+}
+.taka{
+    width: 500px;
+    height: 50px;
+    color: rgb(113, 105, 105);
+    background-color: white;
+    text-align: center;
+    margin-top: -100px;
+    margin-left:280px ;
+    padding-top: 25px;
+    margin-bottom: 20px;
+    padding-bottom: -10px;
+    box-shadow: 5px 3px 8px 0px black;
+    font-size: large;
+    border-radius: 3px;
+      
+}
+.taka:hover{
+    background: rgb(201, 133, 210);
+    box-shadow: 0 0 5px rgb(154, 127, 180), 0 0 25px rgb(154, 127, 180), 0 0 50px rgb(154, 127, 180),0 0 200px rgb(154, 127, 180);
+    color: #333;
+}
+.btn-last{
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    margin-left: 400px;
+
+}
