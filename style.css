@@ -139,6 +139,21 @@ nav>button{
     padding: 10px;
     border-radius: 40px;
 }
+.satellite-btn{
+    width: 130px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(135, 73, 193);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.satellite-btn:hover{
+    box-shadow: 0 0 5px rgb(154, 127, 180), 0 0 25px rgb(154, 127, 180), 0 0 50px rgb(154, 127, 180),0 0 200px rgb(154, 127, 180);
+    color: #333;
+}
 .donate-container{
     display: flex;
     padding: 50px;
