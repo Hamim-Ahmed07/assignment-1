@@ -36,7 +36,7 @@ nav>button{
     padding: 60px;
     border-radius: 50px;
     margin-top: 5px;
-    
+    box-shadow: 7px 7px 10px 2px;
 }
 .pillars-container{
     display: flex;
@@ -52,6 +52,8 @@ nav>button{
     padding: 20px;
     border-radius: 20px;
     margin-left: 20px;
+    box-shadow: 7px 7px 10px;
+
     
    
 }
@@ -68,7 +70,7 @@ nav>button{
     margin-right: 30px;
 }
 .pillar-btn:hover{
-    /* box-shadow: 0 0 5px rgb(154, 127, 180), 0 0 25px rgb(154, 127, 180), 0 0 50px rgb(154, 127, 180),0 0 200px rgb(154, 127, 180); */
+    box-shadow: 0 0 5px rgb(154, 127, 180), 0 0 25px rgb(154, 127, 180), 0 0 50px rgb(154, 127, 180),0 0 200px rgb(154, 127, 180);
     color: #333;
 
 }
@@ -93,6 +95,17 @@ nav>button{
     margin: 20px;
     margin-top: 30px;
 }
+.dr-yunus{
+    padding: 30px;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: .2px solid rgb(146, 111, 111);
+}
+.recent-news{
+    margin-top: 50px;
+    
+}
 
 .button{
     width: 90px;
@@ -102,6 +115,7 @@ nav>button{
     font-size: medium;
 }
 .satellite{
+    box-shadow: 10px 10px 10px;
     
     
 }
@@ -114,6 +128,7 @@ nav>button{
     padding: 25px;
     margin: 30px;
     border-radius: 30px;
+    box-shadow: 7px 7px 10px;
 
 }
 
